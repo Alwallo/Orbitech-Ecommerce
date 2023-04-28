@@ -1,0 +1,175 @@
+:root {
+
+    --spanish-gray: hsl(0, 0%, 60%);
+    --sonic-silver: hsl(0, 0%, 47%);
+    --eerie-black: hsl(0, 0%, 13%);
+    --Orange: hsl(30, 100%, 78%);
+    --sandy-brown: hsl(29, 90%, 65%);
+    --bittersweet: hsl(0, 100%, 70%);
+    --ocean-green: hsl(152, 51%, 52%);
+    --davys-gray: hsl(0, 0%, 33%);
+    --cultured: hsl(0, 0%, 93%);
+    --white: hsl(0, 100%, 100%);
+    --onyx: hsl(0, 0%, 27%);
+
+    --fs-1: 1.563rem;
+    --fs-2: 1.375rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-6: 0.938rem;
+    --fs-7: 0.875rem;
+    --fs-8: 0.813rem;
+    --fs-9: 0.75rem;
+    --fs-10: 0.688rem;
+    --fs-11: 0.625rem;
+
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+
+    --border-radius-md: 10px;
+    --border-radius-sm: 5px;
+
+    --transition-timing: 0.2s ease;
+
+}
+
+.name {
+    color: var(--sandy-brown);
+    margin-right: -50px;
+}
+
+.bienvenida {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp{
+    width: 190px;
+    margin: 2px;
+    position: relative;
+}
+
+.circulo{
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+}
+
+.selectCSV {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: var(--ocean-green);
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -60px;
+    padding-top: 7px;
+    margin-left: 140px;
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    border-style: double;
+}
+
+.selectCSV:hover{
+    background-color: var(--sandy-brown);
+    cursor: pointer;
+}
+  
+input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.contenedor{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.objetos{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.objetos:hover{
+    background-color: var(--sandy-brown);
+    color: white;
+    cursor: pointer;
+}
+
+.panel1{
+    border-right: 1px;
+    border-right-color: var(--sonic-silver);
+    border-right-style: solid;
+    padding-right: 20px;
+}
+
+.panel2{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 70px;
+    border: 2px solid black;
+}
+
+.txt{
+    font-size: 25px;
+    margin: 20px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+input{
+    border-width: 0;
+    font-size: 22px;
+    color: var(--davys-gray);
+}
+
+.lab{
+    margin-top: 25px;
+}
+
+.labeles{
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.fa-pen{
+    margin: 13px;
+    padding: 5px;
+}
+
+.fa-pen:hover{
+    background-color: var(--sandy-brown);
+    color: white;
+    cursor: pointer;
+    border-radius: 70%;
+}
+
+.edit{
+    margin-top: 12px;
+}
+
+.personal{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}

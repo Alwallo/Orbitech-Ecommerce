@@ -1,0 +1,2224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Orbitech Ecommerce</title>
+
+    <link rel="stylesheet" href="./CSS/UniwayDesign.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <div class="overlay" data-overlay></div>
+
+    <!-- Boletin -->
+
+    <div class="modal" data-modal>
+
+        <div class="modal-cerrar-overlay" data-modal-overlay></div>
+
+        <div class="modal-contenido">
+
+            <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="boletin-img">
+                <img src="./Imagenes/news.svg" alt="suscribete al boletin" width="400" height="400">
+            </div>
+
+            <div class="boletin">
+
+                <form action="#">
+
+                    <div class="boletin-header">
+
+                        <h3 class="boletin-title">Subscribete al boletin informativo.</h3>
+
+                        <p class="boletin-desc">
+                            Subscribete a <b>Orbitech</b> para ver los ultimos productos y los mejores descuentos
+                        </p>
+
+                    </div>
+
+                    <input type="email" name="email" class="email-field" placeholder="Correo Electronico" required>
+
+                    <button type="submit" class="btn-boletin">Subscribete</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <div class="header-top">
+
+            <div class="container">
+
+                <ul class="header-social-container">
+
+                    <li>
+                        <a href="https://www.facebook.com/Orbitech-104367788304590/" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=50577712572&app=facebook&entry_point=page_cta&fbclid=IwAR01v7xMk0fOMv3AP2zEHNS9WePOjpmLCL_9lBelUB-ws0MnfnW-gfblrvo"
+                            class="social-link">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://instagram.com" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="header-alerta-noticias">
+                    <p>
+                        <b>Envio gratis</b>
+                        Por compras mayores a $55
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="header-main">
+
+            <div class="container">
+
+                <a href="#" class="header-logo">
+                    <img src="./Imagenes/Logos/logo1.svg" alt="Orbitech Logo" width="120" height="36">
+                </a>
+
+                <div class="header-buscar-container">
+
+                    <input type="search" name="Busqueda" class="busqueda"
+                        placeholder="Ingresa el nombre del producto...">
+
+                    <button class="buscar-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="header-user-actions">
+
+                    <a class="action-btn" href="/Perfil.html">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+
+                    <a href="/fav.html">
+                        <button class="action-btn">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <span class="count">0</span>
+                        </button>
+                    </a>
+
+                    <a href="/carrito.html">
+                        <button class="action-btn">
+                            <ion-icon name="bag-handle-outline"></ion-icon>
+                            <span class="count">0</span>
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="Escritorio-navegacion-menu">
+
+            <div class="container">
+
+                <ul class="desktop-menu-categoria-list">
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Inicio</a>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Categorias</a>
+
+                        <div class="dropdown-panel">
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-titulo">
+                                    <a href="#">Accesorios</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Altavoces</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Audifonos</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Cargadores</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Memoria USB</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Microfonos</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./Imagenes/black-friday-compra.jpg" alt="Accesorios" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-titulo">
+                                    <a href="#">Computadoras</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Laptop</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Escritorio</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Servidores</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Procesadores</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Monitores</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./Imagenes/imaxe-promocion.jpg" alt="Computadoras" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-titulo">
+                                    <a href="#">Telefonia Celular</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Celulares</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Tablet</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Ipad</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Ebook</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Waco</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./Imagenes/descuento.png" alt="Telefonia celular" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-titulo">
+                                    <a href="#">Electronicos</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Smart Watch</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Smart TV</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Teatro en casa</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Stereos</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Asistentes</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./Imagenes/imaxe-promocion.jpg" alt="Electronicos" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Computadoras</a>
+
+                        <ul class="lista-desplegable">
+
+                            <li class="dropdown-item">
+                                <a href="#">Teclados</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Monitores</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Mouses</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Procesadores</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Articulos</a>
+
+                        <ul class="lista-desplegable">
+
+                            <li class="dropdown-item">
+                                <a href="#">Smartwatch</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Auriculares</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Powerbank</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Speaker</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Zona Gamer</a>
+
+                        <ul class="lista-desplegable">
+
+                            <li class="dropdown-item">
+                                <a href="#">Sillas</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Monitores</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Teclados</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Mouses</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Accesorios</a>
+
+                        <ul class="lista-desplegable">
+
+                            <li class="dropdown-item">
+                                <a href="#">Procesadores</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Abanico</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Tarjetas graficas</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Coolers</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-categoria">
+                        <a href="#" class="menu-titulo">Promociones</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!--BANNER-->
+
+        <div class="banner">
+
+            <div class="container">
+
+                <div class="slider-container has-scrollbar">
+
+                    <div class="barra-item">
+
+                        <img src="./Imagenes/gaming.jpg" alt="Lo ultimo en tecnologia" class="banner-img">
+
+                        <div class="banner-contenido">
+
+                            <p class="banner-subtitulo">Lo mas vendido</p>
+
+                            <h2 class="banner-titulo">Lo ultimo en tecnologia</h2>
+
+                            <p class="banner-texto">
+                                Precios desde $ <b>20</b>.00
+                            </p>
+
+                            <a href="/detalle-compra.html" class="banner-btn">Compra Ahora</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="barra-item">
+
+                        <img src="Imagenes/play.jpg" alt="Modernos Audifonos" class="banner-img">
+
+                        <div class="banner-contenido">
+
+                            <p class="banner-subtitulo">Lo ultimo en accessorios</p>
+
+                            <h2 class="banner-titulo">Modernos Audifonos</h2>
+
+                            <p class="banner-texto">
+                                Precios desde $ <b>15</b>.00
+                            </p>
+
+                            <a href="/detalle-compra.html" class="banner-btn">Compra ahora</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="barra-item">
+
+                        <img src="Imagenes/play3.jpg" alt="Mejores promociones" class="banner-img">
+
+                        <div class="banner-contenido">
+
+                            <p class="banner-subtitulo">Oferta</p>
+
+                            <h2 class="banner-titulo">Las mejores promociones</h2>
+
+                            <p class="banner-texto">
+                                Adquierelos desde $ <b>29</b>.99
+                            </p>
+
+                            <a href="/detalle-compra.html" class="banner-btn">Compra ahora</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--CATEGORIAS -->
+
+        <div class="category">
+
+            <div class="container">
+
+                <div class="category-item-contenedor has-scrollbar">
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Controles" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Controles</h3>
+
+                                <p class="category-item-cantidad">(53)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Videojuegos" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Videojuegos</h3>
+
+                                <p class="category-item-cantidad">(58)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Oculus" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Oculus</h3>
+
+                                <p class="category-item-cantidad">(68)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Camaras" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Camaras</h3>
+
+                                <p class="category-item-cantidad">(84)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Monitores" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Monitores</h3>
+
+                                <p class="category-item-cantidad">(35)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Almacenamiento" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Almacenamiento</h3>
+
+                                <p class="category-item-cantidad">(16)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="watch" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">SmartWatch</h3>
+
+                                <p class="category-item-cantidad">(27)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <div class="category-img-box">
+                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Mochilas" width="30">
+                        </div>
+
+                        <div class="category-content-box">
+
+                            <div class="category-content-flex">
+                                <h3 class="category-item-titulo">Mochilas</h3>
+
+                                <p class="category-item-cantidad">(39)</p>
+                            </div>
+
+                            <a href="#" class="category-btn">Mostrar todo</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Carousel-->
+        <div class="carousel-list-container">
+            <h2 class="Titulo">Nuevas Tendencias</h2>
+            <div class="lista-wrapper">
+                <div class="carousel-list">
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/asus.png" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/ryzen.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/asus.png" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/remoto.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/asusus.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/intel.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/play2.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+
+        <div class="carousel-list-container">
+            <h2 class="Titulo">Nuevos productos</h2>
+            <div class="lista-wrapper">
+                <div class="carousel-list">
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/iphone.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/watch-1.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/iphone.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/control.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/silla.png" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/iphone.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                    <div class="carousel-list-item">
+                        <img class="carousel-list-item-img" src="Imagenes/Productos/iphone.jpg" alt="">
+                        <a href="/Producto.html"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+
+
+
+        <!-- PRODUCTOS -->
+
+        <div class="product-container">
+
+            <div class="container">
+
+                <div class="product-caja">
+
+                    <!-- Productos categorias -->
+
+                    <div class="product-minimal">
+
+                        <div class="product-showcase">
+
+                            <h2 class="titulo">Nuevos productos</h2>
+
+                            <div class="showcase-wrapper has-scrollbar">
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="/Producto.html" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Monitor Gaming" width="70"
+                                                class="showcase-img">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Monitor Gaming</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Monitores</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$240.00</p>
+                                                <del>$245.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Silla Gamer"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Silla Gamer</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$72.00</p>
+                                                <del>$90.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Tablet"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Tablet Samsung</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Celulares & Tablets</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$65.00</p>
+                                                <del>$75.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="/Producto.html" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Chromebook"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="#">
+                                                <h4 class="showcase-titulo">Chromebook</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Laptops</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$131.00</p>
+                                                <del>$168.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Mouse Gaming"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Mouse Gaming</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$21.00</p>
+                                                <del>$31.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Teclado RGB"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Teclado RGB</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$22.00</p>
+                                                <del>$32.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Audifonos Inalambricos"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Audifonos Inalambricos</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$40.00</p>
+                                                <del>$50.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="AMD Ryzen 7"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">AMD Ryzen 7</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Procesadores</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$30.00</p>
+                                                <del>$40.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="product-showcase">
+
+                            <h2 class="titulo">Trending</h2>
+
+                            <div class="showcase-wrapper  has-scrollbar">
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Mousepad Ergonomico"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Mousepad Ergonomico</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$9.00</p>
+                                                <del>$5.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Memoria USB Kingston"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Memoria USB Kingston</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Memorias</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$18.00</p>
+                                                <del>$16.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Mochila para laptop"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Mochila para laptop</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$54.00</p>
+                                                <del>$48.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Funda para laptop"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Funda para laptop</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$5.00</p>
+                                                <del>$15.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Ventilador enfriador"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Ventilador enfriador</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$52.00</p>
+                                                <del>$55.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Airpods"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Airpods</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Auriculares</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$120.00</p>
+                                                <del>$130.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Smartwatch Samsung"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Smartwatch Samsung</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Smartwatch</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$256.00</p>
+                                                <del>$278.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Ebook Amazon"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Ebook Amazon</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Celulares & Tablets</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$250.00</p>
+                                                <del>$255.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="product-showcase">
+
+                            <h2 class="titulo">Top Rated</h2>
+
+                            <div class="showcase-wrapper  has-scrollbar">
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Tarjeta grafica Nvidia"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Tarjeta grafica Nvidia</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Tarjetas graficas</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$450.00</p>
+                                                <del>$470.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Oculus"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Oculus</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Realidad Virtual</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$384.00</p>
+                                                <del>$390.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Memoria Micro SD"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Memoria Micro SD</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Memoria</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$12.00</p>
+                                                <del>$15.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Playstation 4"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Playstation 4</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$400.00</p>
+                                                <del>$500.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase-container">
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Xbox One"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Xbox One</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Gaming</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$550.00</p>
+                                                <del>$450.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="smartwatch vital plus"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Smartwatchs Vital Plus</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">SmartWatch</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$260.00</p>
+                                                <del>$280.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Laptop Toshiba"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Laptop Toshiba</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Laptops</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$820.00</p>
+                                                <del>$830.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="showcase">
+
+                                        <a href="#" class="showcase-img-box">
+                                            <img src="./Imagenes/Productos/watch-1.jpg" alt="Case computadora"
+                                                class="showcase-img" width="70">
+                                        </a>
+
+                                        <div class="showcase-content">
+
+                                            <a href="/Producto.html">
+                                                <h4 class="showcase-titulo">Case computadora</h4>
+                                            </a>
+
+                                            <a href="#" class="showcase-categoria">Componentes</a>
+
+                                            <div class="precio-container">
+                                                <p class="precio">$200.00</p>
+                                                <del>$230.00</del>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PRODUCTO OFERTA PROMOCION -->
+
+                    <div class="product-oferta">
+
+                        <h2 class="titulo">Promocion del dia</h2>
+
+                        <div class="showcase-container">
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./Imagenes/Productos/Portatil.jpg" alt="Laptop HP + Mouse gamer"
+                                        class="showcase-img">
+                                </div>
+
+                                <div class="showcase-contenido">
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                    </div>
+
+                                    <a href="#">
+                                        <h3 class="showcase-titulo">Laptop HP + Mouse gamer</h3>
+                                    </a>
+
+                                    <p class="showcase-desc">
+                                        Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                                        dolor dolor sit amet consectetur Lorem ipsum dolor
+                                    </p>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$450.00</p>
+
+                                        <del>$500.00</del>
+                                    </div>
+
+                                    <button class="btn-agregar">Agregar al carrito</button>
+
+                                    <div class="showcase-estado">
+                                        <div class="unidades">
+                                            <p>
+                                                Unidades vendidas: <b>20</b>
+                                            </p>
+
+                                            <p>
+                                                Disponibles: <b>40</b>
+                                            </p>
+                                        </div>
+
+                                        <div class="showcase-barra"></div>
+                                    </div>
+
+                                    <div class="contador-container">
+
+                                        <p class="contador-desc">
+                                            Apresurate! La oferta termina en:
+                                        </p>
+
+                                        <div class="contador">
+
+                                            <div class="contador-contenedor">
+
+                                                <p>360</p>
+
+                                                <p>Dias</p>
+
+                                            </div>
+
+                                            <div class="contador-contenedor">
+                                                <p>24</p>
+                                                <p>Horas</p>
+                                            </div>
+
+                                            <div class="contador-contenedor">
+                                                <p>59</p>
+                                                <p>Min</p>
+                                            </div>
+
+                                            <div class="contador-contenedor">
+                                                <p>00</p>
+                                                <p>Seg</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- PRODUCTOS LIQUIDACIONES -->
+
+                    <div class="product-principal">
+
+                        <h2 class="titulo">Ofertas en liquidacion</h2>
+
+                        <div class="product-grid">
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+
+                                    <img src="./imagenes/productos/watch-1.jpg" alt="Smartwatch" width="300"
+                                        class="product-img base">
+                                    <img src="./imagenes/productos/watch-2.jpg" alt="Smartwatch" width="300"
+                                        class="product-img hover">
+
+                                    <p class="showcase-etiqueta">15%</p>
+
+                                    <div class="showcase-iconos">
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="showcase-contenido">
+
+                                    <a href="#" class="showcase-categoria">Computadoras</a>
+
+                                    <a href="#">
+                                        <h3 class="showcase-titulo">Laptop HP Omen</h3>
+                                    </a>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$48.00</p>
+                                        <del>$75.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/powerbank.jpg" alt="Celular" class="product-img base"
+                                        width="300">
+                                    <img src="./imagenes/productos/powerbank-blue.jpg" alt="Celular"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Procesador</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Procesador Intel I9</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$445.00</p>
+                                        <del>$456.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/iphone-blue.webp" alt="Powerbank 20,000 Mah"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/iphone gold.webp" alt="Powerbank 20,000 Mah"
+                                        class="product-img hover" width="300">
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Powerbank 20K Mah</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <ion-icon name="star-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$58.00</p>
+                                        <del>$65.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/mouse.jpg" alt="Mouse Inalambricos"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/mouse-gaming.jpg" alt="Mouse Inalambricos"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Mouse Inalambrico</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$25.00</p>
+                                        <del>$35.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/play.jpg" alt="Mouse Inalambricos"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/playstation.jpg" alt="Mouse Inalambricos"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Mouse Inalambrico</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$25.00</p>
+                                        <del>$35.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/watch-1.jpg" alt="Mouse Inalambricos"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/watch-2.jpg" alt="Mouse Inalambricos"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Mouse Inalambrico</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$25.00</p>
+                                        <del>$35.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/tecladoo.jpg" alt="Mouse Inalambricos"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/teclados.jpg" alt="Mouse Inalambricos"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Mouse Inalambrico</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$25.00</p>
+                                        <del>$35.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="showcase">
+
+                                <div class="showcase-banner">
+                                    <img src="./imagenes/productos/laptop.png" alt="Mouse Inalambricos"
+                                        class="product-img base" width="300">
+                                    <img src="./imagenes/productos/laptope.png" alt="Mouse Inalambricos"
+                                        class="product-img hover" width="300">
+
+                                    <p class="showcase-etiqueta angulo rosa">Oferta</p>
+
+                                    <div class="showcase-iconos">
+                                        <button class="btn-iconos">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+
+                                        <a href="/Producto.html">
+                                            <button class="btn-iconos">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                        </a>
+
+                                        <button class="btn-iconos">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-contenido">
+                                    <a href="#" class="showcase-categoria">Accesorios</a>
+
+                                    <h3>
+                                        <a href="#" class="showcase-titulo">Mouse Inalambrico</a>
+                                    </h3>
+
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <div class="precio-container">
+                                        <p class="precio">$25.00</p>
+                                        <del>$35.00</del>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="blog">
+
+            <div class="container">
+
+                <h2>Blog Tecnologico</h2>
+
+                <div class="blog-container">
+
+                    <div class="blog-card">
+
+                        <a href="#">
+                            <img src="./Imagenes/blogs.png" alt="Catalogo de compra" width="300" class="blog-banner">
+                        </a>
+
+                        <div class="blog-contenido">
+
+                            <a href="#" class="blog-categoria">Tecnologia</a>
+
+                            <a href="#">
+                                <h3 class="blog-titulo">Catalogo de compra</h3>
+                            </a>
+
+                            <p class="blog-meta">
+                                Por <cite>Alvaro</cite> / <time datetime="2022-06-07">Junio 07 de 2022</time>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="blog-card">
+
+                        <a href="#">
+                            <img src="./Imagenes/blog.png" alt="Top 10 Celulares del 2022" class="blog-banner"
+                                width="300">
+                        </a>
+
+                        <div class="blog-contenido">
+
+                            <a href="#" class="blog-categoria">Celulares</a>
+
+                            <h3>
+                                <a href="#" class="blog-titulo">Top 10 Celulares del 2022</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                Por <cite>Alvaro</cite> / <time datetime="2022-06-07">Junio 07 de 2022</time>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="blog-card">
+
+                        <a href="#">
+                            <img src="./Imagenes/blogs.png" alt="Orbitech premio" class="blog-banner" width="300">
+                        </a>
+
+                        <div class="blog-contenido">
+
+                            <a href="#" class="blog-categoria">Tecnologia</a>
+
+                            <h3>
+                                <a href="#" class="blog-titulo">Orbitech gana premio a mejor ecommerce de
+                                    Centroamerica</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                Por <cite>Alvaro</cite> / <time datetime="2022-06-07">Junio 07 de 2022</time>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="blog-card">
+
+                        <a href="#">
+                            <img src="./Imagenes/blog.png" alt="Mejores tarjetas graficas del 2022" class="blog-banner"
+                                width="300">
+                        </a>
+
+                        <div class="blog-contenido">
+
+                            <a href="#" class="blog-categoria">Componentes</a>
+
+                            <h3>
+                                <a href="#" class="blog-titulo">Mejores tarjetas graficas del 2022</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                Por <cite>Alvaro</cite> / <time datetime="2022-06-07">Junio 07 de 2022</time>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <!--Footer -->
+
+    <footer>
+
+        <div class="footer-nav">
+
+            <div class="container">
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Categorias populares</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Componentes</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Accesorios</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Accesorios</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Celulares & Tablets</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Equipos electronicos</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Productos</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Laptops</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Celulares</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Tablets</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Smartwatch</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Computadoras</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Informacion</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Delivery</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Documentos legales</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Terminos y condiciones</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Acerca de nosotros</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Tipos de pago</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Servicios</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Politica de devoluciones</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Envios</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Atencion al cliente</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Rebajas</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Promociones</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Contactos</h2>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icono">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="contenido">
+                            carretera a Masaya plaza Corona modulo #3 en
+                            frente de supermercados la union
+                            505 Managua, Nicaragua
+                        </address>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icono">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <a href="tel:+5057771-2572" class="footer-nav-link">(505) 7771-2572</a>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icono">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <a href="mailto:OrbitechCompras@gmail.com" class="footer-nav-link">OrbitechCompras@gmail.com</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <img src="./Imagenes/payment.png" alt="metodo pago" class="pago-img">
+
+                <p class="copyright">
+                    Copyright &copy; <a href="#">Uniway</a> Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/app.js"></script>
+    <script src="https://kit.fontawesome.com/c9b96bfd3b.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

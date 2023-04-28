@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/Panel.css">
+    <title>Panel de administrador</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>Orbitech</h2>
+            </div>
+            <div class="search">
+                <input type="text" name="search" placeholder="Buscar">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fas fa-bell"></i>
+            <a class="user" href="index.html">
+                <img src="Imagenes/usuario.png" alt="usuario">
+            </a>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-tachometer"></i>
+                        <div>Panel</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs"></i>
+                        <div>Componentes</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-wrench"></i>
+                        <div>Herramientas</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <div>Usuarios</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Analitica</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div>Ganancias</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div>Configuraciones</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <div>Ayuda</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">$12,000</div>
+                        <div class="card-name">Ganancias Mensuales</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">$120,000</div>
+                        <div class="card-name">Ganancias Anuales</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">5</div>
+                        <div class="card-name">Tareas</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa fa-tasks"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">18</div>
+                        <div class="card-name">Mensajes pendientes</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa fa-comments"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="charts">
+                <div class="chart">
+                    <h2>Ganancias (Ultimos 12 meses)</h2>
+                    <canvas id="lineChart"></canvas>
+                </div>
+                <div class="chart doughnut-chart">
+                    <h2>Ventas</h2>
+                    <canvas id="doughnut"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="JS/chart1.js"></script>
+    <script src="JS/chart2.js"></script>
+</body>
+
+</html>
